@@ -1,0 +1,17 @@
+fname = input("Enter first name: ").strip()
+lname = input("Enter last name: ").strip()
+section = input("Enter section: ").strip()
+favsub = input("Enter favorite subject: ").strip()
+
+fullname = f"{fname} {lname}".title()
+namecode = f"{fname} {lname}".upper()
+section_form = section.upper()
+subject_form = favsub.title()
+
+print()
+print("Output:")
+print("Name:", fullname)
+print("Name Code:", namecode)
+print("Section:", section_form)
+print("Favorite Subject:", subject_form)
+print("Character Count:", len(fullname))
